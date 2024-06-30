@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "esbuild src/standalone.jsx --jsx-factory=React.createElement --outfile=dist/standalone.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.21.5"
+  }
+}

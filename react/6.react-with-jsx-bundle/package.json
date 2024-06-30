@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "bundle": "esbuild src/bundle.jsx --bundle --jsx-factory=React.createElement --outfile=dist/bundle.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.21.5"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
