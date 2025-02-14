@@ -2,3 +2,6 @@ dist
 
 # intentionally ignore package-lock.json
 package-lock.json
+
+standalone.js
+bundle.js

@@ -1,4 +1,3 @@
-
 export default JSX = {
     el: function (name, attrs, ...content) {
        let d = document.createElement(name)

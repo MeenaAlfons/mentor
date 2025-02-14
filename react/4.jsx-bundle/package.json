@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "bundle": "esbuild src/bundle.jsx --bundle --jsx-factory=JSX.el --outfile=dist/bundle.js"
+    "bundle": "esbuild src/bundle.jsx --bundle --jsx-factory=JSX.el --outfile=bundle.js"
   },
   "devDependencies": {
     "esbuild": "0.21.5"
